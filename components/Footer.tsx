@@ -8,6 +8,7 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
+       {/* eslint-disable @next/next/no-img-element */}
         <img
           src="/footer-grid.svg"
           alt="grid"
@@ -43,6 +44,7 @@ const Footer = () => {
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
+              {/* eslint-disable @next/next/no-img-element */}
               <img src={info.img} alt="icons" width={20} height={20} />
             </div>
           ))}

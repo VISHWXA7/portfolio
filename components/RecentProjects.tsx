@@ -27,8 +27,10 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
+                  {/* eslint-disable @next/next/no-img-element */}
                   <img src="/bg.png" alt="bgimg" />
                 </div>
+                {/* eslint-disable @next/next/no-img-element */}
                 <img
                   src={item.img}
                   alt="cover"
@@ -60,6 +62,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
+                      {/* eslint-disable @next/next/no-img-element */}
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
