@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Student engagement platform",
+    des: "Allows student to collaborate with the class activities and assignments.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://portfolio-dun-iota-63.vercel.app/",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://student-academic-engagement-platform.vercel.app/",
   },
   {
     id: 2,
@@ -156,14 +156,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/VISHWXA7",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Vishwaa3511",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/vishwaa7/",
   },
 ];
 
