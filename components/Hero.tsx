@@ -60,14 +60,11 @@ const Hero = () => {
             Hi! I&apos;m Vishwaa, a Ai Engineer based in India.
           </p>
           <div>
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
-          <a className="lg:pl-20">
+          <a href="https://drive.google.com/file/d/1jM3FzvqGznLdYwJ0_kAYB2RvrDzpxLNE/view?usp=drive_link" 
+              download="Vishwaa_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <MagicButton
               title="Resume download"
               icon={<FaLocationArrow />}

@@ -76,7 +76,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://portfolio-dun-iota-63.vercel.app/",
   },
   {
     id: 2,
@@ -164,5 +164,28 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
+  },
+];
+
+export const navLinks = [
+  {
+    id: 1,
+    name: 'Home',
+    href: '#home',
+  },
+  {
+    id: 2,
+    name: 'About',
+    href: '#about',
+  },
+  {
+    id: 3,
+    name: 'Work',
+    href: '#work',
+  },
+  {
+    id: 4,
+    name: 'Contact',
+    href: '#contact',
   },
 ];
