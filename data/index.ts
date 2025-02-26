@@ -107,8 +107,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/Vishwaa3511",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/vishwxa_/",
   },
   {
     id: 3,
