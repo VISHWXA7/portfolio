@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import RecentProjects from "@/components/RecentProjects";
 import Navbar from "@/components/Navbar";
+import Experience from "@/components/Experience";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <Grid />
+        <Experience />
         <RecentProjects />
         <Footer />
       </div>

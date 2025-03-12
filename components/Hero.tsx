@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-16 pt-24">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -42,7 +42,7 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-        <p className="text-center md:tracking-wider mb-1 text-sm md:text-lg lg:text-2xl">
+        <p className="text-center md:tracking-wider mb-1 sm:text-base md:text-lg lg:text-2xl">
             Hi! I&apos;m Vishwaa, a Full Stack Developer.
           </p>
          
@@ -53,16 +53,16 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="Transforming Concepts into Seamless User Experiences"
-            className="text-center text-[40px] md:text-6xl lg:text-6xl"
+            className="text-center text-[32px] sm:text-[36px] md:text-6xl lg:text-6xl leading-tight"
           />
 
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 mt-2">
             Dynamic Portfolio with Next.js
           </p>
 
          
-          <div>
-          <a href="https://drive.google.com/file/d/1jM3FzvqGznLdYwJ0_kAYB2RvrDzpxLNE/view?usp=drive_link" 
+          <div className="mt-6">
+          <a href="https://drive.google.com/file/d/12vMHkNDvg09_ktWB3ZtpTsklG3j_qgKR/view?usp=sharing" 
               download="Vishwaa_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"

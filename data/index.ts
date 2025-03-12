@@ -65,35 +65,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Student engagement platform",
-    des: "Allows student to collaborate with the class activities and assignments.",
+    title: "Women Trust Website",
+    des: "Modern Responsive Website.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://student-academic-engagement-platform.vercel.app/",
+    link: "https://github.com/VISHWXA7/ThiyagamWomenTrust_Site.git",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Personl Stock Tracker",
+    des: "Automated Stock Tracker.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/VISHWXA7/portfolio_tracker.git",
   },
   {
     id: 3,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Data Vault",
+    des: "Interactive Portfolio Chat-bot.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/VISHWXA7",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Developer - Thiyagam Women Trust",
+    date: "2025 - present",
+    desc: "Developed and maintained the website for the Women Trust. Worked on the front-end and back-end of the website.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
